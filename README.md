@@ -21,22 +21,9 @@ See [LICENSE](https://raw.github.com/piaoasd123/CMake/master/LICENSE) for detail
 Reporting Bugs
 ==============
 
-If you have found a bug:
-
-1. If you have a patch, please read the `CONTRIBUTING.rst`_ document.
-
-2. Otherwise, please join the the `CMake Users List`_ and ask about
-   the expected and observed behaviors to determine if it is really
-   a bug.
-
-3. Finally, if the issue is not resolved by the above steps, open
-   an entry in the `CMake Issue Tracker`_.
-
-.. _`CMake Issue Tracker`: http://www.cmake.org/Bug
+If you have found a bug, please consider formulating a pull request!
 
 Contributing
 ============
 
-See `CONTRIBUTING.rst`_ for instructions to contribute.
-
-.. _`CONTRIBUTING.rst`: CONTRIBUTING.rst
+If you enjoy using bD and would like to contribute, feel free to email me: y.piao.us@ieee.org
