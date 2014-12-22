@@ -1,9 +1,9 @@
 BlonD
 =====
 
-BlonD is a cross-platform, open-source automated build generation script package based on CMake. BlonD fully utilizes the productivity of CMake and is designed to enable fast iteration and allow programmers create and maintain source code with ease.
+BlonD is a CMaked-based automated build generator. BlonD aims to significantly reduce the amount of learning required to fully utilize the productivity of CMake and is designed to enable fast iteration and allow programmers create and maintain source code with ease.
 
-BlonD is particularly suited for C++ development with [Visual Studio](http://www.visualstudio.com/) and [XCode](https://developer.apple.com/xcode/), while mostly compatible with any other IDEs supported by CMake.
+BlonD is particularly suited for C++ development with [Visual Studio](http://www.visualstudio.com/) and [XCode](https://developer.apple.com/xcode/), while being mostly compatible with any other IDEs supported by CMake.
 
 Credits
 -------
@@ -13,7 +13,7 @@ Developed by by [Frank Park](https://www.linkedin.com/profile/view?id=365243381)
 License
 -------
 
-BlonD is distributed under the GPL License version 3.
+BlonD is distributed under the GPLv3 License.
 See [LICENSE](https://raw.github.com/piaoasd123/CMake/master/LICENSE) for details.
 
 Building CMake
