@@ -1,9 +1,7 @@
 BlonD
 =====
 
-Introduction
-============
-BlonD is a CMake-based open-source C++ build script package. BlonD fully utilizes the productivity of CMake and is designed to enable fast iteration and allow programmers create and maintain C++ source code with ease.
+BlonD is an cross-platform, open-source build script package based on CMake. BlonD fully utilizes the productivity of CMake and is designed to enable fast iteration and allow programmers create and maintain C++ source code with ease.
 
 BlonD is particularly suited for C++ development with Microsoft Visual Studio and XCode, while partially compatible with any other IDEs supported by CMake.
 
@@ -11,7 +9,7 @@ BlonD is maintained and supported by `Frank Park`_.
 .._`Frank Park`: https://www.linkedin.com/profile/view?id=365243381
 
 License
-=======
+-------
 
 CMake is distributed under the GPL License version 3.
 See `Copyright.txt`_ for details.
@@ -19,7 +17,7 @@ See `Copyright.txt`_ for details.
 .. _`Copyright.txt`: Copyright.txt
 
 Building CMake
-==============
+--------------
 
 Supported Platforms
 -------------------
