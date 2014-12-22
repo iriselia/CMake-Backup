@@ -1,9 +1,11 @@
-BlonD
+bD
 =====
 
-BlonD is a CMaked-based automated build generator. BlonD aims to significantly reduce the amount of learning required to fully utilize the productivity of CMake and is designed to enable fast iteration and allow programmers create and maintain source code with ease.
+bD is a CMaked-based automated build generator. bD aims to significantly reduce the amount of learning required to fully utilize the productivity of CMake and is designed to enable fast iteration and allow programmers create and maintain source code with ease.
 
-BlonD is particularly suited for C++ development with [Visual Studio](http://www.visualstudio.com/) and [XCode](https://developer.apple.com/xcode/), while being mostly compatible with any other IDEs supported by CMake.
+bD is particularly suited for C++ development with [Visual Studio](http://www.visualstudio.com/) and [XCode](https://developer.apple.com/xcode/), while being mostly compatible with any other IDEs supported by CMake.
+
+Build Your Own Program
 
 Credits
 -------
@@ -13,59 +15,8 @@ Developed by by [Frank Park](https://www.linkedin.com/profile/view?id=365243381)
 License
 -------
 
-BlonD is distributed under the GPLv3 License.
+bD is distributed under the GPLv3 License.
 See [LICENSE](https://raw.github.com/piaoasd123/CMake/master/LICENSE) for details.
-
-Building CMake
---------------
-
-Supported Platforms
--------------------
-
-MS Windows, Mac OS X, Linux, FreeBSD, Solaris, HP-UX, IRIX, BeOS, QNX
-
-Other UNIX-like operating systems may work too out of the box, if not
-it should not be a major problem to port CMake to this platform.
-Subscribe and post to the `CMake Users List`_ to ask if others have
-had experience with the platform.
-
-.. _`CMake Users List`: http://www.cmake.org/mailman/listinfo/cmake
-
-Building CMake from Scratch
----------------------------
-
-UNIX/Mac OSX/MinGW/MSYS/Cygwin
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-You need to have a compiler and a make installed.
-Run the ``bootstrap`` script you find the in the source directory of CMake.
-You can use the ``--help`` option to see the supported options.
-You may use the ``--prefix=<install_prefix>`` option to specify a custom
-installation directory for CMake. You can run the ``bootstrap`` script from
-within the CMake source directory or any other build directory of your
-choice. Once this has finished successfully, run ``make`` and
-``make install``.  In summary::
-
- $ ./bootstrap && make && make install
-
-Windows
-^^^^^^^
-
-You need to download and install a binary release of CMake in order to build
-CMake.  You can get these releases from the `CMake Download Page`_ .  Then
-proceed with the instructions below.
-
-.. _`CMake Download Page`: http://www.cmake.org/cmake/resources/software.html
-
-Building CMake with CMake
--------------------------
-
-You can build CMake as any other project with a CMake-based build system:
-run the installed CMake on the sources of this CMake with your preferred
-options and generators. Then build it and install it.
-For instructions how to do this, see documentation on `Running CMake`_.
-
-.. _`Running CMake`: http://www.cmake.org/cmake/help/runningcmake.html
 
 Reporting Bugs
 ==============

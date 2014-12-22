@@ -1,4 +1,4 @@
-BlonD - CMaked-based automated build generator
+bD - CMaked-based automated build generator
 Copyright 2013-2014 Frank Park
 All rights reserved.
 
@@ -32,7 +32,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ------------------------------------------------------------------------------
 
 The above copyright and license notice applies to distributions of
-BlonD in source and binary form. The original copyright and license
+bD in source and binary form. The original copyright and license
 notice of CMake is provided below.
 
 ==============================================================================
