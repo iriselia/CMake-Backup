@@ -33,7 +33,10 @@ MACRO(create_project mode in_macros includes linkLibs)
 	endif()
 
 	if( (MY_SRC STREQUAL "") AND (MY_HEADERS STREQUAL "") )
-		message(FATAL_ERROR "Please insert at least one source file to use the CMakeLists.txt.")
+		message(STATUS "Project is empty, a stub C header was created to set compiler language.")
+		file(WRITE Stub.h "")
+		LIST(APPEND MY_HEADERS ${CMAKE_CURRENT_SOURCE_DIR}/Stub.h)
+		#message(FATAL_ERROR "Please insert at least one source file to use the CMakeLists.txt.")
 	endif()
 
 	#----- Scan Shader Files -----
