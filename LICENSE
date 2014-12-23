@@ -1,4 +1,4 @@
-bD - CMaked-based automated build generator
+BlonD - CMaked-based automated build generator
 Copyright 2013-2014 Frank Park
 All rights reserved.
 
@@ -32,7 +32,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ------------------------------------------------------------------------------
 
 The above copyright and license notice applies to distributions of
-bD in source and binary form. The original copyright and license
+BlonD in source and binary form. The original copyright and license
 notice of CMake is provided below.
 
 ==============================================================================
@@ -77,7 +77,7 @@ CMake in source and binary form.  Some source files contain additional
 notices of original copyright by their contributors; see each source
 for details.  Third-party software packages supplied with CMake under
 compatible licenses provide their own copyright notices documented in
-corresponding subdirectories.
+corresponding suBlonDirectories.
 
 ------------------------------------------------------------------------------
 
