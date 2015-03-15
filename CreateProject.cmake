@@ -40,7 +40,14 @@ MACRO(create_project mode in_macros includes linkLibs)
 	endif()
 
 	#----- Scan Shader Files -----
-	file(GLOB_RECURSE MY_SHADERS ${CMAKE_CURRENT_SOURCE_DIR}/*.vert	${CMAKE_CURRENT_SOURCE_DIR}/*.frag	${CMAKE_CURRENT_SOURCE_DIR}/*.glsl)
+	file(GLOB_RECURSE MY_SHADERS
+		${CMAKE_CURRENT_SOURCE_DIR}/*.vert
+		${CMAKE_CURRENT_SOURCE_DIR}/*.frag
+		${CMAKE_CURRENT_SOURCE_DIR}/*.geom
+		${CMAKE_CURRENT_SOURCE_DIR}/*.comp
+		${CMAKE_CURRENT_SOURCE_DIR}/*.ctrl
+		${CMAKE_CURRENT_SOURCE_DIR}/*.eval
+		${CMAKE_CURRENT_SOURCE_DIR}/*.glsl)
 	if( NOT MY_SHADERS STREQUAL "" )
 		create_source_group("" "${CMAKE_CURRENT_SOURCE_DIR}/" ${MY_SHADERS})
 	endif()
