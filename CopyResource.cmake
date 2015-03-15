@@ -8,6 +8,10 @@ file(GLOB_RECURSE
 	MY_SHADERS
 	${SrcDir}/*.vert
 	${SrcDir}/*.frag
+	${SrcDir}/*.geom
+	${SrcDir}/*.comp
+	${SrcDir}/*.ctrl
+	${SrcDir}/*.eval
 	${SrcDir}/*.glsl
 	)
 
